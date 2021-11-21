@@ -10,7 +10,7 @@ export class AppComponent {
   public appPages = [
     { title: 'Voltar ao jogo', url: '/', icon: 'mail', src: '/assets/img/voltarjogo.svg' },
     { title: 'Sobre o jogo', url: '/about', icon: 'paper-plane', src: '/assets/img/sobrejogo.svg' },
-    { title: 'Site OMS', url: '/oms', icon: 'heart', src: '/assets/img/web.svg' },
+    { title: 'Site OMS', url: '/oms-new', icon: 'heart', src: '/assets/img/web.svg' },
     { title: 'Aplicação em aula', url: '/application', icon: 'custom-ensino', src: '/assets/img/aula.svg' },
     { title: 'Hora da investigação', url: '/horainves', icon: 'hora-inves', src: '/assets/img/horainves.svg' },
     { title: 'Reiniciar o jogo', url: '/horainves', icon: 'refresh-outline', src: '/assets/img/refresh.svg'},

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 
 @Component({
@@ -9,11 +8,11 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 })
 export class OmsPage {
 
-  constructor(private browser : InAppBrowser){}
+  constructor(){}
 
-  openUrl(){
-    this.browser.create('https://www.who.int/eportuguese/countries/bra/pt/')
-  }
+  ngOnInit(){
+    
+    }
 }
  
 

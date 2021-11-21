@@ -34,6 +34,10 @@ const routes: Routes = [
   {
     path: 'noticia/:id',
     loadChildren: () => import('./noticia/noticia.module').then( m => m.NoticiaPageModule)
+  },
+  {
+    path: 'oms-new',
+    loadChildren: () => import('./oms-new/oms-new.module').then( m => m.OmsNewPageModule)
   }
 ];
 
