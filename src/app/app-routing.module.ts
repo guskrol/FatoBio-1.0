@@ -19,10 +19,10 @@ const routes: Routes = [
     path: 'application',
     loadChildren: () => import('./application/application.module').then( m => m.ApplicationPageModule)
   },
-  {
-    path: 'oms',
-    loadChildren: () => import('./oms/oms.module').then( m => m.OmsPageModule)
-  },
+  //{
+   // path: 'oms-new',
+  //  loadChildren: () => import('./oms-new/oms-new.module').then( m => m.Oms-newPageModule)
+  //},
   {
     path: 'horainves',
     loadChildren: () => import('./horainves/horainves.module').then( m => m.HorainvesPageModule)
